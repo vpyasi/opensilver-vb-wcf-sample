@@ -12,9 +12,9 @@ namespace OpenSilverServiceProxy
             serviceClient = new ServiceClient();
         }
 
-        public async Task<string> GetDataAsync(Int32 id)
+        public async Task<string> GetDataAsync(String name, Int32 id)
         {
-            return await serviceClient.GetDataAsync(id);
+            return await serviceClient.GetDataAsync(name,id);
         }
     }
 }

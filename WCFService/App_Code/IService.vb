@@ -3,7 +3,7 @@
 Public Interface IService
 
     <OperationContract()>
-    Function GetData(ByVal value As Integer) As String
+    Function GetData(ByVal Name As String, ByVal value As Integer) As String
 
     <OperationContract()>
     Function GetDataUsingDataContract(ByVal composite As CompositeType) As CompositeType

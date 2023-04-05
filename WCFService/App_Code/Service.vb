@@ -5,8 +5,8 @@ Public Class Service
     Public Sub New()
     End Sub
 
-    Public Function GetData(ByVal value As Integer) As String Implements IService.GetData
-        Return String.Format("You entered: {0}", value)
+    Public Function GetData(ByVal Name As String, ByVal value As Integer) As String Implements IService.GetData
+        Return String.Format("Hi {0}, You entered: {1}", Name, value)
     End Function
 
     Public Function GetDataUsingDataContract(ByVal composite As CompositeType) As CompositeType Implements IService.GetDataUsingDataContract

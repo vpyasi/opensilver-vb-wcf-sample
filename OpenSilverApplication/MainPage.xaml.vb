@@ -16,7 +16,8 @@ Partial Public Class MainPage
     Public Async Function MyFunc() As Task(Of Integer)
         Dim proxy = New OpenSilverServiceProxy.ServiceProxy()
         Dim requestParam = 1
-        Dim results = Await proxy.GetDataAsync(requestParam)
+
+        Dim results = Await proxy.GetDataAsync("Adam", requestParam)
         Console.WriteLine(results)
 
         Return requestParam
