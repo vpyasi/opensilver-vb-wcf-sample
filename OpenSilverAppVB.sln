@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilverApplication.Browser", "OpenSilverApplication.Browser\OpenSilverApplication.Browser.csproj", "{D0E5C664-0678-44B1-B2F1-191AA7D77816}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "OpenSilverApplication", "OpenSilverApplication\OpenSilverApplication.vbproj", "{25D08620-775B-4B7B-AFF8-8F8BE3A0A9A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilverApplication.Simulator", "OpenSilverApplication.Simulator\OpenSilverApplication.Simulator.csproj", "{DE2C544F-4167-40C1-A266-3A99A5A5D9E3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService", "WCFService\", "{AD7C1A75-E7BE-4C06-95A7-DB1B2128FB9F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61508"
+		Debug.AspNetCompiler.PhysicalPath = "WCFService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61508\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61508"
+		Release.AspNetCompiler.PhysicalPath = "WCFService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61508\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61508"
+		SlnRelativePath = "WCFService\"
+		DefaultWebSiteLanguage = "Visual Basic"
+		StartServerOnDebug = "true"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilverServiceProxy", "OpenSilverServiceProxy\OpenSilverServiceProxy.csproj", "{92AF211D-7B61-46E6-AE9C-6B8A76DEC7A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E5C664-0678-44B1-B2F1-191AA7D77816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E5C664-0678-44B1-B2F1-191AA7D77816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E5C664-0678-44B1-B2F1-191AA7D77816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E5C664-0678-44B1-B2F1-191AA7D77816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D08620-775B-4B7B-AFF8-8F8BE3A0A9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D08620-775B-4B7B-AFF8-8F8BE3A0A9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D08620-775B-4B7B-AFF8-8F8BE3A0A9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D08620-775B-4B7B-AFF8-8F8BE3A0A9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2C544F-4167-40C1-A266-3A99A5A5D9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2C544F-4167-40C1-A266-3A99A5A5D9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2C544F-4167-40C1-A266-3A99A5A5D9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2C544F-4167-40C1-A266-3A99A5A5D9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7C1A75-E7BE-4C06-95A7-DB1B2128FB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C1A75-E7BE-4C06-95A7-DB1B2128FB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7C1A75-E7BE-4C06-95A7-DB1B2128FB9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C1A75-E7BE-4C06-95A7-DB1B2128FB9F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{92AF211D-7B61-46E6-AE9C-6B8A76DEC7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AF211D-7B61-46E6-AE9C-6B8A76DEC7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AF211D-7B61-46E6-AE9C-6B8A76DEC7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AF211D-7B61-46E6-AE9C-6B8A76DEC7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB93ADE1-1F37-4D83-84A8-F013FDD07D02}
+	EndGlobalSection
+EndGlobal
